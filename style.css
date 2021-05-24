@@ -1,0 +1,284 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Poppins', sans-serif;
+
+
+}
+.header{
+
+    min-height: 100vh;
+      width: 100%;
+    background-image:url(pictures/background.jpeg);
+
+
+
+    background-position: center;
+   background-size: cover;
+  position: relative;  
+}
+
+nav{
+
+      display:flex;
+      padding: 2% 6%;
+      justify-content: space-between;
+      align-items: center;  
+}
+
+nav img{
+
+   width: 125px;
+}
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+
+   list-style: none;
+   display:inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #FFD700;
+    display: block;
+    margin: auto;   
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+
+   width: 100%;
+}
+
+.text-box{
+
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+
+}
+
+.text-box h1{
+  font-size: 50px;
+}
+
+.text-box p{
+ margin: 10px 0 40px;
+ font-size: 14px;
+ color: #fff;
+
+}
+
+.hero-btn{
+
+  display:inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover{
+  border: 1px solid #fff;
+  background:#204B53;
+    transition: 1s;
+
+}
+
+
+
+
+/*----------Main idea--------------*/
+.MainIdea{
+
+  min-height: 100vh;
+    width: 100%;
+      background-image:url(pictures/Backgroundheader1\(2\).jpg);
+  background-position: center;
+ background-size: cover;
+position: relative;  
+}
+
+.text-box1{
+
+   width: 90%;
+    color: peachpuff;
+     position: absolute;
+      top: 50%;
+           left: 50%;
+       transform: translate(-50% , -50%);
+     text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+.text-box1 h1{
+     font-size: 50px;
+       color:peachpuff;
+  text-shadow: 2px 2px #000000;
+}
+
+.text-box1 p{
+    margin: 10px 0 40px;
+ font-size: 20x;
+
+}
+
+nav img{
+  width:125 px;
+}
+/*-------------------Facts---------------*/
+
+.Facts{
+height: 50vh;
+   width: 100%;
+     background-image: url(pictures/factsbackgroundjpg.jpg);
+    background-position: center;
+      background-size: cover;
+    text-align: center;
+color: #fff;
+}
+
+.Facts h1{
+ margin: 100px;
+
+}
+
+
+.facts-us{
+width: 50%;
+      margin: auto;
+      padding-top: 80px;
+padding-bottom: 50px;
+}
+.Facts-col{
+flex-basis:48%;
+padding: 30px 2px;
+
+}
+
+.Facts-col img{
+  width: 100%;
+  
+  }
+  .Facts-col h1{
+    padding-top: 0;
+}
+
+
+
+ .Facts-col p{
+      padding: 15px 0 25px;
+     
+}
+
+nav img{
+  width:125 px;
+}
+
+      
+
+    /*-------Opinion-------*/
+
+    .Opinion{
+
+      min-height: 100vh;
+        width: 100%;
+          background-image:url(pictures/opinionbackground.jpg);
+      background-position: center;
+     background-size: cover;
+    position: relative;  
+    }
+    
+    .text-box3{
+    
+       width: 90%;
+        color: peachpuff;
+         position: absolute;
+          top: 50%;
+               left: 50%;
+           transform: translate(-50% , -50%);
+         text-align: center;
+      text-shadow: 2px 2px #000000;
+    }
+    
+    .text-box3 h1{
+         font-size: 50px;
+           color:peachpuff;
+      text-shadow: 2px 2px #000000;
+    }
+    
+    .text-box3 p{
+        margin: 10px 0 40px;
+     font-size: 20x;
+    
+    }
+    
+    nav img{
+      width:125 px;
+
+
+    }
+.Message{
+
+min-height: 100vh;
+width: 100%;
+  background-color: black ;
+background-position: center;
+background-size: cover;
+position: relative;  
+
+}
+
+.text-box4{
+
+  width: 90%;
+  color: #F2AA4CFF;
+  position: absolute ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+
+
+.Message p3{
+
+  
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+ 
+}
+
+.Message p3 a{
+  color:#F2AA4CFF;
+  text-decoration: none;
+  font-size: 20px;
+  
+ 
+}
